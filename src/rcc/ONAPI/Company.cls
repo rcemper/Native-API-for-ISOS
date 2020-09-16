@@ -31,3 +31,5 @@ ClassMethod JSON(id As %Integer) As %String(MAXLEN="") [ CodeMode = objectgenera
  do %code.WriteLine(" } catch ex { set jsn=ex.Name}")
  do %code.WriteLine(" quit jsn")
 }
+
+}
