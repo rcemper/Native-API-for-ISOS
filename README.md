@@ -1,13 +1,13 @@
  ~~~
- This is a coding example working on IRIS 2020.2
- It is also NOT serviced by InterSystems Support !   
+ This is a coding example working on IRIS 2020.2  
+ It is also NOT serviced by InterSystems Support !     
 ~~~ 
 
-The demo is based on the raw class descriptions.
-The date classes uses are Address, Person, Employee,Company
-For a more attractive demo a JSONtoString method by ID was added.
+The demo is based on the raw class descriptions.  
+The data classes used are Address, Person, Employee, Company.  
+For a more attractive demo a JSONtoString method by ID was added.  
 
-After installation with ZPM just run from Terminal
+After installation with ZPM just run from Terminal  
 ~~~
 USER>do ##class(rcc.ONAPI.demo).Run()
 Adjust Parameters
@@ -19,9 +19,9 @@ pwd[SYS]:
 timeout[5]:
 ****** connected ********
 ~~~
-Next you get a list of possibel demo actions.
+Next you get a list of possibel demo actions.  
 No imput means no action. The menu loops until you exit.
-~~~
+~~~  
 Populate Person by:100
      100
 Populate Company by:10
