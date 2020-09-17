@@ -19,8 +19,9 @@ pwd[SYS]:
 timeout[5]:
 ****** connected ********
 ~~~
-Next you get a list of possibel demo actions.  
-No imput means no action. The menu loops until you exit.
+Next, you get a list of possible demo actions.  
+No input means no action.  
+The menu loops until you exit.
 ~~~  
 Populate Person by:100
      100
