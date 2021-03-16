@@ -3,8 +3,8 @@
   <Document name="native-api-objectscript.ZPM">
     <Module>
       <Name>native-api-objectscript</Name>
-      <Version>1.0.0</Version>
-      <Description>A small demo on how to use it</Description>
+      <Version>1.0.1</Version>
+      <Description>A small demo on how to use IRIS Native API for ObjectScript</Description>
       <Keywords>Terminal, Native API</Keywords>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
