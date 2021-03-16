@@ -4,7 +4,7 @@
     <Module>
       <Name>native-api-objectscript</Name>
       <Version>1.0.1</Version>
-      <Description>A small demo on how to use IRIS Native API for ObjectScript</Description>
+      <Description>Small demo how to use IRIS Native API between IRIS instances</Description>
       <Keywords>Terminal, Native API</Keywords>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
