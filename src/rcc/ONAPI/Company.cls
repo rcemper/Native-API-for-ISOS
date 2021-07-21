@@ -1,4 +1,4 @@
-/// This sample persistent class represents a company.<br>
+/// This sample persistent class represents a company<br>
 Class rcc.ONAPI.Company Extends (%Persistent, %Populate, %XML.Adaptor, %JSON.Adaptor)
 {
 
@@ -32,4 +32,32 @@ ClassMethod JSON(id As %Integer) As %String(MAXLEN="") [ CodeMode = objectgenera
  do %code.WriteLine(" quit jsn")
 }
 
+Storage Default
+{
+<Data name="CompanyDefaultData">
+<Value name="1">
+<Value>%%CLASSNAME</Value>
+</Value>
+<Value name="2">
+<Value>Name</Value>
+</Value>
+<Value name="3">
+<Value>Mission</Value>
+</Value>
+<Value name="4">
+<Value>TaxID</Value>
+</Value>
+<Value name="5">
+<Value>Revenue</Value>
+</Value>
+</Data>
+<DataLocation>^rcc.ONAPI.CompanyD</DataLocation>
+<DefaultData>CompanyDefaultData</DefaultData>
+<IdLocation>^rcc.ONAPI.CompanyD</IdLocation>
+<IndexLocation>^rcc.ONAPI.CompanyI</IndexLocation>
+<StreamLocation>^rcc.ONAPI.CompanyS</StreamLocation>
+<Type>%Storage.Persistent</Type>
 }
+
+}
+

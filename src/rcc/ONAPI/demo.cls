@@ -94,3 +94,4 @@ Method Menu(ByRef go As %Boolean = 1)
 }
 
 }
+

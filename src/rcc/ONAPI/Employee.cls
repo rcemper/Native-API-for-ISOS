@@ -16,4 +16,30 @@ Property Picture As %Stream.GlobalBinary;
 
 /// The company this employee works for.
 Relationship Company As Company [ Cardinality = one, Inverse = Employees ];
+
+Storage Default
+{
+<Data name="EmployeeDefaultData">
+<Subscript>"Employee"</Subscript>
+<Value name="1">
+<Value>Title</Value>
+</Value>
+<Value name="2">
+<Value>Salary</Value>
+</Value>
+<Value name="3">
+<Value>Notes</Value>
+</Value>
+<Value name="4">
+<Value>Picture</Value>
+</Value>
+<Value name="5">
+<Value>Company</Value>
+</Value>
+</Data>
+<DefaultData>EmployeeDefaultData</DefaultData>
+<Type>%Storage.Persistent</Type>
 }
+
+}
+
