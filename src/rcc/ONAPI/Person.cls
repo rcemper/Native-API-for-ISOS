@@ -47,4 +47,41 @@ ClassMethod JSON(id As %Integer) As %String(MAXLEN="") [ CodeMode = objectgenera
  do %code.WriteLine(" quit jsn")
 }
 
+Storage Default
+{
+<Data name="PersonDefaultData">
+<Value name="1">
+<Value>%%CLASSNAME</Value>
+</Value>
+<Value name="2">
+<Value>Name</Value>
+</Value>
+<Value name="3">
+<Value>SSN</Value>
+</Value>
+<Value name="4">
+<Value>DOB</Value>
+</Value>
+<Value name="5">
+<Value>Home</Value>
+</Value>
+<Value name="6">
+<Value>Office</Value>
+</Value>
+<Value name="7">
+<Value>Spouse</Value>
+</Value>
+<Value name="8">
+<Value>FavoriteColors</Value>
+</Value>
+</Data>
+<DataLocation>^rcc.ONAPI.PersonD</DataLocation>
+<DefaultData>PersonDefaultData</DefaultData>
+<IdLocation>^rcc.ONAPI.PersonD</IdLocation>
+<IndexLocation>^rcc.ONAPI.PersonI</IndexLocation>
+<StreamLocation>^rcc.ONAPI.PersonS</StreamLocation>
+<Type>%Storage.Persistent</Type>
 }
+
+}
+
