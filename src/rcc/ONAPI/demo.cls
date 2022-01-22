@@ -4,9 +4,9 @@ Class rcc.ONAPI.demo Extends %RegisteredObject
 
 Property host As %String(MAXLEN = "") [ InitialExpression = "127.0.0.1" ];
 
-Property port As %Integer [ InitialExpression = 51773 ];
+Property port As %Integer [ InitialExpression = 1972 ];
 
-Property namespace As %String(MAXLEN = "") [ InitialExpression = "USER" ];
+Property namespace As %String(MAXLEN = "") [ InitialExpression = "IRISAPP" ];
 
 Property user As %String(MAXLEN = "") [ InitialExpression = "_SYSTEM" ];
 
