@@ -1,5 +1,5 @@
  ~~~
- This is a coding example working on IRIS 2020.2  
+ This is a coding example working on IRIS 2021.2  
  It is also NOT serviced by InterSystems Support !     
 ~~~ 
 
@@ -9,11 +9,12 @@ For a more attractive demo a JSONtoString method by ID was added.
 
 After installation with ZPM just run from Terminal  
 ~~~
-USER>do ##class(rcc.ONAPI.demo).Run()
+zn "IRISAPP"
+IRISAPP>do ##class(rcc.ONAPI.demo).Run()
 Adjust Parameters
 host[127.0.0.1]:
-port[51773]:
-namespace[USER]:
+port[1972]:
+namespace[IRISAPP]:
 user[_SYSTEM]:
 pwd[SYS]:
 timeout[5]:
@@ -62,7 +63,7 @@ Index list for Person & Employee (n,y):
 Exit Demo (n,y,*):y
 ****** done ********
  
-USER>
+IRISAPP>
 ~~~
 
 [Article in DC](https://community.intersystems.com/post/iris-native-api-objectscript)
