@@ -35,8 +35,8 @@ Method Init() As %Status
 	write "Adjust Parameters",!
 	for prop="host","port","namespace","user","pwd","timeout" {
 		do {
-			write prop_"["_$property($this,prop)_"]: ",?10 read new,!
-			if $l(new) set $property($this,prop)=new
+			write prop_"["_$property($this,prop)_"]: ",?10 read nw,!
+			if $l(nw) set $property($this,prop)=nw  ;for code Quality !!
 			} while $test
 		}
 	write "****** connected ********",!	
