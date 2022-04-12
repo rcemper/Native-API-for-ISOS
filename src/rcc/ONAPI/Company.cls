@@ -30,6 +30,7 @@ ClassMethod JSON(id As %Integer) As %String(MAXLEN="") [ CodeMode = objectgenera
  do %code.WriteLine(" do ##class("_class_").%OpenId(id).%JSONExportToString(.jsn)")
  do %code.WriteLine(" } catch ex { set jsn=ex.Name}")
  do %code.WriteLine(" quit jsn")
+ quit 1   ; for code Quality
 }
 
 Storage Default
