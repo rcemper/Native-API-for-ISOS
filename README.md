@@ -1,7 +1,3 @@
- ~~~
- This is a coding example working on IRIS 2021.2  
- It is also NOT serviced by InterSystems Support !     
-~~~ 
 
 The demo is based on the raw class descriptions.  
 The data classes used are Address, Person, Employee, Company.  
@@ -9,12 +5,12 @@ For a more attractive demo a JSONtoString method by ID was added.
 
 After installation with ZPM just run from Terminal  
 ~~~
-zn "IRISAPP"
-IRISAPP>do ##class(rcc.ONAPI.demo).Run()
+zn "USER"
+USER>do ##class(rcc.ONAPI.demo).Run()
 Adjust Parameters
 host[127.0.0.1]:
 port[1972]:
-namespace[IRISAPP]:
+namespace[USER]:
 user[_SYSTEM]:
 pwd[SYS]:
 timeout[5]:
@@ -63,7 +59,15 @@ Index list for Person & Employee (n,y):
 Exit Demo (n,y,*):y
 ****** done ********
  
-IRISAPP>
+USER>
 ~~~
 
 [Article in DC](https://community.intersystems.com/post/iris-native-api-objectscript)
+
+[Demo Server SMP](https://native-api-objectscript.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
+[Demo Server WebTerminal](https://native-api-objectscript.demo.community.intersystems.com/terminal/)    
+        
+**Code Quality**   
+<img width="85%" src="
+https://openexchange.intersystems.com/mp/img/packages/671/screenshots/4bh7tyapellnv0cjgw34riapcfo.jpg
+">
