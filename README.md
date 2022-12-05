@@ -63,9 +63,3 @@ USER>
 ~~~
 
 [Article in DC](https://community.intersystems.com/post/iris-native-api-objectscript)
-
-[Demo Server SMP](https://native-api-objectscript.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
-[Demo Server WebTerminal](https://native-api-objectscript.demo.community.intersystems.com/terminal/)    
-        
-**Code Quality**   
-<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1775/screenshots/dj0okgvnqubehrqtwizisudo.jpg">
