@@ -1,9 +1,36 @@
-
-The demo is based on the raw class descriptions.  
+# NATIVE API also for InterSystems ObjectScript    
+Native API exists not just for Java, Python, Node.JS, :Net  
+### Prerequisites
+Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and
+[Docker desktop](https://www.docker.com/products/docker-desktop) installed.
+### Installation
+Clone/git pull the repo into any local directory
+```
+$ git clone https://github.com/rcemper/Native-API-for-ISOS.git
+```
+To build and start the container run:
+```
+$ docker compose up -d && docker compose logs -f
+```
+To open IRIS Terminal do:
+```
+$ docker-compose exec iris iris session iris
+USER>
+```
+or using **Iterm**
+```
+http://localhost:42773/iterm/
+```
+To access IRIS System Management Portal
+```
+http://localhost:42773/csp/sys/UtilHome.csp
+```
+### the Demo
+It is based on the raw class descriptions.  
 The data classes used are Address, Person, Employee, Company.  
-For a more attractive demo a JSONtoString method by ID was added.  
+For a more attractive demo, a JSONtoString method by ID was added.  
 
-After installation with ZPM just run from Terminal  
+Run from Terminal  
 ~~~
 zn "USER"
 USER>do ##class(rcc.ONAPI.demo).Run()
