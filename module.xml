@@ -3,12 +3,12 @@
   <Document name="native-api-objectscript.ZPM">
     <Module>
       <Name>native-api-objectscript</Name>
-      <Version>1.0.6</Version>
+      <Version>1.0.7</Version>
       <Description>Small demo how to use IRIS Native API between IRIS instances</Description>
       <Keywords>Terminal, Native API</Keywords>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-       <Resource Name="rcc.ONAPI.PKG"/>
+       <Resource Name="rcc.PKG"/>
     </Module>
   </Document>
 </Export>
